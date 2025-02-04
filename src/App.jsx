@@ -1,8 +1,12 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+import Navbar from './Components/Navbar'
+// import Main from './Components/Main'
 const App = () => {
   return (
-    <Navbar />
+    <div>
+      <Navbar />
+      {/* <Main/> */}
+    </div>
   )
 }
 
